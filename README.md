@@ -16,7 +16,7 @@ The character sheet will appear with this visual style for the players.
 ![Character Sheet View](breathless_example.png)
 
 
-### 1. Automatic Dice Degradation (Step-Down)
+### 1. Automatic Dice Degradation
 The Step-Down mechanic is the core of the Breathless experience. Every time you take a risk, your resources dwindle.
 * **The Logic:** When you click a skill button (e.g., BASH, DASH, THINK), the system rolls the current die and automatically downgrades that skill's value for the next use (d12 -> d10 -> d8 -> d6 -> d4).
 * **The Floor:** Per the rules, the automation hard-caps at d4.
@@ -37,7 +37,7 @@ I have integrated the degradation rules directly into the itemized list:
 * **Full Reset:** Both the "Catch Your Breath" and "Safe Rest" buttons instantly restore all current skills to their initial values and reset Grit usage.
 * **Narrative Alerts:** The system sends contextual warnings to the chat: "Catch Your Breath" reminds the GM to introduce a consequence, while "Safe Rest" prompts the GM to determine if any Harm was cleared.
 
-### 5. Threat Monitoring (Vulnerable State)
+### 5. Threat Monitoring
 The character sheet constantly monitors your physical integrity. As soon as the fifth Harm box is checked, the UI triggers a "VULNERABLE" alert.
 
 ### 6. Loot Logic
