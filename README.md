@@ -40,7 +40,7 @@ I have integrated the degradation rules directly into the itemized list:
 ### 5. Threat Monitoring (Vulnerable State)
 The character sheet constantly monitors your physical integrity. As soon as the fifth Harm box is checked, the UI triggers a "VULNERABLE" alert.
 
-### 6. Scavenging and Loot Logic
+### 6. Loot Logic
 When performing a Loot Check, the system processes the roll against the loot table:
 * **Results:** The chat output specifies exactly what was found (Nothing, Low-Quality Item, or Standard Item) based on the roll result.
 * **Post-Loot Degradation:** Just like skills, your Loot die automatically steps down one level after the check is processed.
