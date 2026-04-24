@@ -13,6 +13,7 @@ This system for Foundry VTT was built using the Custom System Builder.
 
 The character sheet will appear with this visual style for the players.
 
+![Character Sheet View]([assets/preview_ficha.png](https://github.com/zeflorentino/breathless_2e_unofficial/blob/main/breathless_example.png?raw=true))
 
 
 ### 1. Automatic Dice Degradation (Step-Down)
