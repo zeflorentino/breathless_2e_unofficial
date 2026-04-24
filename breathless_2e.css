@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+.custom-system-actor-content {
+    --br-bg: #f9f9f9;
+    --br-text: #1a1a1a;
+    --br-accent: #cc0000;
+    --br-btn-bg: #000000;
+    --br-btn-text: #ffffff;
+
+    background-color: var(--br-bg) !important;
+    color: var(--br-text);
+    font-family: 'Oswald', 'Impact', sans-serif;
+    padding: 15px;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.window-content:has(.custom-system-actor-content) {
+    background-color: #f9f9f9 !important;
+    padding: 0 !important;
+}
+
+.custom-system-actor-content label,
+.custom-system-actor-content .custom-system-label-title,
+.custom-system-actor-content .custom-system-cell-boldTitle span,
+.custom-system-actor-content .custom-system-label-bold,
+.custom-system-actor-content .custom-system-label-label {
+    color: var(--br-accent);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.custom-system-actor-content table .custom-system-label-title,
+.custom-system-actor-content table .custom-system-cell-boldTitle span {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.custom-system-actor-content .lbl_items_header .custom-system-label-title {
+    display: block;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+}
+
+.custom-system-actor-content .vulnerable_lbl strong {
+    color: var(--br-accent) !important;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.custom-system-actor-content .sheet-header .charname input[name="name"] {
+    background-color: var(--br-bg) !important;
+    color: var(--br-text) !important;
+    border: none !important;
+    border-bottom: 2px solid var(--br-accent) !important;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.custom-system-actor-content .sheet-header .charname input[name="name"]:focus {
+    outline: none !important;
+    border-bottom: 2px solid var(--br-btn-bg) !important;
+    background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+.custom-system-actor-content .custom_header {
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+.custom-system-actor-content .custom_header input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--br-accent);
+    border-radius: 0;
+    padding-left: 5px;
+    color: var(--br-text);
+    font-weight: bold;
+}
+
+.custom-system-actor-content .custom_header input[type="text"]:focus {
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid var(--br-btn-bg);
+}
+
+.custom-system-actor-content .panel_actions {
+    gap: 10px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.custom-system-actor-content .panel_harm {
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-system-actor-content a.button.custom-system-label-root {
+    background: var(--br-btn-bg);
+    color: var(--br-btn-text);
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-system-actor-content a.button.custom-system-label-root:hover {
+    background: #333333;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.window-content:has(.custom-system-actor-content) input[type="checkbox"],
+.custom-system-actor-content input[type="checkbox"] {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    background-color: var(--br-bg) !important;
+    background-image: none !important;
+    border: 1px solid #000000 !important;
+    border-radius: 3px !important;
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 auto !important;
+    cursor: pointer !important;
+    display: block !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.custom-system-actor-content input[type="checkbox"]::before,
+.custom-system-actor-content input[type="checkbox"]::after {
+    display: none !important;
+    content: none !important;
+}
+
+.window-content:has(.custom-system-actor-content) input[type="checkbox"]:checked,
+.custom-system-actor-content input[type="checkbox"]:checked {
+    background-color: var(--br-bg) !important;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M3 7.5 l2.5 2.5 l5.5 -5.5" fill="none" stroke="%23cc0000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 80% !important;
+    border: 1px solid #000000 !important;
+}
+
+.custom-system-actor-content input[type="checkbox"]:focus,
+.custom-system-actor-content input[type="checkbox"]:active,
+.custom-system-actor-content input[type="checkbox"]:hover {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid var(--br-accent) !important;
+}
+
+.custom-system-actor-content table {
+    border: none !important;
+    background: transparent !important;
+    margin-bottom: 20px;
+}
+
+.custom-system-actor-content table tr,
+.custom-system-actor-content table td,
+.custom-system-actor-content table th,
+.custom-system-actor-content table tbody tr:nth-child(even) {
+    background: transparent !important;
+    border: none !important;
+    padding: 8px 4px;
+    vertical-align: middle;
+}
+
+.custom-system-actor-content table .custom-system-number-field input[type="text"] {
+    background: transparent;
+    border: 1px solid #000000 !important;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--br-text);
+    box-shadow: none !important;
+    height: 28px;
+    width: 100%;
+}
+
+.custom-system-actor-content table .custom-system-number-field input[type="text"]:focus {
+    outline: none;
+    border: 1px solid var(--br-accent) !important;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.custom-system-actor-content table .custom-system-text-field input[type="text"] {
+    background: transparent;
+    border: none !important;
+    border-radius: 0;
+    text-align: left;
+    font-size: 1.1em;
+    color: var(--br-text);
+    box-shadow: none !important;
+    padding-left: 5px;
+}
+
+.custom-system-actor-content table .custom-system-text-field input[type="text"]:focus {
+    outline: none;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.custom-system-dynamic-table-row-icons a {
+    color: var(--br-accent);
+}
+
+.custom-system-dynamic-table-row-icons a:hover {
+    color: var(--br-btn-bg);
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_loot) td,
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) td {
+    background: #000000 !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_loot) a.button.custom-system-label-root,
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) a.button.custom-system-label-root {
+    background: var(--br-accent) !important;
+    color: #ffffff !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_loot) a.button.custom-system-label-root:hover,
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) a.button.custom-system-label-root:hover {
+    background: #aa0000 !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_loot) .custom-system-number-field input[type="text"],
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) .custom-system-number-field input[type="text"] {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_loot) .custom-system-number-field input[type="text"]:focus,
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) .custom-system-number-field input[type="text"]:focus {
+    border: 1px solid var(--br-accent) !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) input[type="checkbox"] {
+    background-color: #000000 !important;
+    border: 1px solid #ffffff !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) input[type="checkbox"]:checked {
+    background-color: #000000 !important;
+    border: 1px solid #ffffff !important;
+}
+
+.custom-system-actor-content .stats_table table tr:has(.btn_grit) label {
+    color: #ffffff !important;
+}
+
+li.chat-message:has(.breathless-roll) .message-content .dice-roll {
+    display: none !important;
+}
+
+li.chat-message:has(.breathless-roll) {
+    background-color: #f9f9f9 !important;
+    background-image: none !important;
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+}
+
+li.chat-message:has(.breathless-roll) header.message-header,
+li.chat-message:has(.breathless-roll) .message-content,
+li.chat-message:has(.breathless-roll) .flavor-text {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+li.chat-message:has(.breathless-roll) .message-header .message-sender {
+    font-weight: bold !important;
+    color: #1a1a1a !important;
+    text-transform: uppercase;
+    font-size: 1.05em;
+}
+
+li.chat-message:has(.breathless-roll) .message-metadata .message-timestamp {
+    color: #666666 !important;
+}
