@@ -1,5 +1,6 @@
 # breathless_2e_unofficial
 An unofficial automated **BREATHLESS: FRIGHTMARE EDITION** character sheet for Foundry VTT.
+Learn more about Breathless at: https://farirpgs.com/breathless/
 
 This system for Foundry VTT was built using the Custom System Builder.
 
