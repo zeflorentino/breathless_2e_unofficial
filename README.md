@@ -1,5 +1,5 @@
 # breathless_2e_unofficial
-An automated BREATHLESS: FRIGHTMARE EDITION character sheet for Foundry VTT.
+An unofficial automated **BREATHLESS: FRIGHTMARE EDITION** character sheet for Foundry VTT.
 
 This system for Foundry VTT was built using the Custom System Builder.
 
@@ -13,7 +13,7 @@ This system for Foundry VTT was built using the Custom System Builder.
 
 The character sheet will appear with this visual style for the players.
 
-![Character Sheet View]([assets/preview_ficha.png](https://github.com/zeflorentino/breathless_2e_unofficial/blob/main/breathless_example.png?raw=true))
+![Character Sheet View](breathless_example.png)
 
 
 ### 1. Automatic Dice Degradation (Step-Down)
